@@ -6,6 +6,7 @@ import inception from './inception.jpg';
 import SearchRate from './SearchRate';
 import MovieSpace from './MovieSpace';
 
+
 const table = [
     {
         // rate:"☆☆☆☆☆",
@@ -64,11 +65,7 @@ class Movie extends React.Component {
           searchText: e.target.value
         })
       }
- test = (x)=> {
-    this.setState({
-       serach :x
-   })
- }
+ 
      rater = (clicked) => {
      this.setState({
            stars: clicked
